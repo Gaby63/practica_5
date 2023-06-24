@@ -2,68 +2,109 @@
     height:100%
 }
 body {
-    background-color: #75c9b7;
+    background-color: #feffff;
     height:100%;
     font-family: sans-serif;
+    margin: 0px;
 }
 
-#encabezado {
-    background-color: #322e2f;
-    color: #c9ddc8;
-    text-aling:center;
-    padding-bottom:5px;
+
+#menu{
+    text-align: right;
+    padding-right: 10%;
 }
 
-h1 {
-    text-align:center;
-    padding:30px;
+hr {
+    border-color: #f2f2f2;
 }
 
-#menu {
-    background-color: #c7ddcc;
-    text-align: center;
-    padding:40px;
-    font-size:30px;
+#menu a {
+    color: #98a29f;
+    padding:5px;
+    font-size:14px;
+    font-weight: bold;
     margin:5px;
-}
-
-#menu a{
-    padding-inline:50px;
-}
-
-#seccion {
-    background-color: #12a4d9;
-    width: 68%;
-    display: inline;
-    float: left;
-    margin: 1%;
-    text-align: center;
-    min-height: 250px;
+    text-decoration: none;
+    padding-inline:35px;
 }
 
 #principal {
-    background-color: #c7ddcc;
     margin-top:10px;
-    padding: 1%;
     display:block;
     overflow:hidden;
+    min-height: 510px;
+}
+#principal figure {
+    margin: 0px;
 }
 
-#lateral {
-    background-color: #d9138a;
-    width:28%;
-    display:inline;
-    float:right;
-    margin:1%;
-    text-align:center;
-    height:100%;
-    min-height:250px;
+#imagen{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+#vector{
+    z-index: 2;
+    position: absolute;
+    margin-left: 75px;
+    margin-top:15px;
+}
+
+#principal p{
+    color: #feffff;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+}
+
+#enunciado1{
+    font-weight:800;
+    margin-left: 115px;
+    margin-top: 14px;
+    float: left;
+    font-size: 25px;
+}
+#enunciado2{
+    margin-left: -235px;
+    margin-top: 45px;
+    float: left;
+    font-size: 25px;
+}
+#enunciado3{
+    font-weight: 900;
+    margin-left: -145px;
+    margin-top: 40px;
+    float: left;
+    font-size: 75px;
+    width: 500px;
+    line-height: 69px;
+}
+#enunciado4{
+    margin-left: -495px;
+    margin-top: 180px;
+    float: left;
+    font-size: 25px;
 }
 
 #piedepagina {
-    background-color: #e2d810;
     margin-top:5px;
     text-align:center;
-    font-size:25px;
     padding:20px;
+}
+
+#piedepagina h3{
+    color:#9c9172;
+    margin: 0px;
+}
+
+
+#piedepagina p{
+    margin: 4px;
+    color: #858786;
+}
+
+#piedepagina p:first-of-type{
+    font-weight: bolder;
 }
